@@ -1,6 +1,6 @@
 :root {
   --primary: #2c3e50;
-  --secondary: #f2a35c ;
+  --secondary: #dad283 ;
   --accent: #f39c12;
   --light: #ecf0f1;
   --dark: #2c3e50;
@@ -148,7 +148,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
     outline: none;
-    border-color: var(--accent);
+    border-color: var(--secondary);
 }
 
 /* Buttons */
@@ -156,7 +156,7 @@ input[type="text"]:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--accent);
+    background-color: var(--secondary);
     color: white;
     border: none;
     padding: 0 1em;
@@ -166,7 +166,7 @@ input[type="text"]:focus {
 }
 
 .add-ticker-btn:hover {
-    background-color: #e67e22;
+    background-color: #d4c755;
 }
 
 .add-ticker-svg {
@@ -193,7 +193,7 @@ input[type="text"]:focus {
 }
 
 .generate-report-btn:hover {
-    background-color: #ef862a ;
+    background-color: #d4c755 ;
     transform: translateY(-2px);
     box-shadow: 0 6px 8px rgba(0,0,0,0.1);
 }
